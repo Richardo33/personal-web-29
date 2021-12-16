@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #6461a0;
+    height: 7vh;
+}
+
+nav .left {
+    padding: 10px;
+    flex: 50%;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .left li {
+    display: inline;
+}
+
+nav .left ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+nav .right {
+    flex: 50%;
+    padding: 10px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .right a {
+    background-color: #0a81d1;
+    color: white;
+    padding: 10px 20px;
+    border-radius:30px;
+    text-decoration: none;
+}
+
+.container {
+    /* height: 93vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .section {
+    display: flex;
+    width: 85%;
+}
+
+.section .left{
+    flex: 40%;
+}
+
+.section .right {
+    flex: 60%;
+    padding-left: 30px;
+}
+
+.section .right p {
+    color: #8b8b8b;
+    text-align: justify;
+   
+}
+
+.section .right .skill-container {
+    display: flex;
+}
+
+.section .right .skill-container h4{
+  font-weight: 800;
+}
+
+.section .right .skill-container div {
+    flex: 1;
+}
+
+.skill-container div img {
+    width: 50px;
+    height: 50px;
+}
+
