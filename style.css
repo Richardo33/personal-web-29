@@ -8,7 +8,7 @@ body {
 
 nav {
     display: flex;
-    background-color: #6461a0;
+    background-color: #1d178a;
     height: 7vh;
 }
 
@@ -41,7 +41,7 @@ nav .right {
 }
 
 nav .right a {
-    background-color: #0a81d1;
+    background-color: #6461a0;
     color: white;
     padding: 10px 20px;
     border-radius:30px;
