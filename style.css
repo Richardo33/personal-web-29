@@ -81,15 +81,23 @@ nav .right a {
 
 .section .right .skill-container h4{
   font-weight: 800;
-  margin-right: 5em;
+  margin-right: 1em;
 }
 
 .section .right .skill-container div {
     flex: 1;
+/*   background-color: blue; */
 }
 
 .skill-container div img {
     width: 50px;
     height: 50px;
+/*   background-color: blue; */
 }
 
+.section .right .contact img{
+/*   background-color: blue; */
+  height: auto;
+  width: 4em;
+  margin-right: 1em;
+}
